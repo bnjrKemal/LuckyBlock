@@ -1,0 +1,15 @@
+prefix: '§b§lLuckyBlock » §7'
+
+reload: '{prefix} §cDosyalar yenilendi.'
+update: '{prefix} §e{file}.yml güncellendi.'
+
+help-command:
+  - '{prefix} §eHatali kullanim : /lb set <set>'
+  - '{prefix} §eHatali kullanim : Lokasyon baktigin yerin lokasyonunu ayarlar.'
+
+no-found-class: '{prefix} §cBu adında sınıf bulunamadı.'
+class-listing: '{prefix} Kullanilabilir siniflar : {list}'
+
+usage-command: '{prefix} §cKullanimi : /lb set <sinif adi>'
+
+no-found-location: '{prefix} §cLokasyon bulunamadı. Yaklaştırarak tekrar deneyin.'

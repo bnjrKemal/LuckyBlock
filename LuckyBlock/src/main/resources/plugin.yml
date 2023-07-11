@@ -1,0 +1,13 @@
+name: LuckyBlock
+version: '${version}'
+main: luckyblock.luckyblock.LuckyBlock
+api-version: 1.16
+authors: [ DonsuzTurk ]
+depend:
+  - HolographicDisplays
+commands:
+  luckyblock:
+    aliases:
+      - lb
+    permission: luckyblock.admin
+    permission-message: §cYetkin yok.

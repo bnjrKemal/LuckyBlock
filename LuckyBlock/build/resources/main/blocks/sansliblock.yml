@@ -1,0 +1,40 @@
+location:
+# ..................
+name: '§eŞanslı Block'
+health: 100
+terminate-time: 1
+times:
+  - '16:00'
+  - '22:10'
+  - '22:12'
+rewards:
+  - say {player} oyunu bitirdi.
+  - give {player} diamond_sword 1
+holo-in-working:
+  - ''
+  - '{name}'
+  - 'Can >> {progress}/{health}'
+  - ''
+  - 'En çok kıran >> {player}'
+  - ''
+  - ''
+holo-waiter:
+  - '§6Şanslı Block'
+  - ''
+  - '§eBu bir blok etkinliğidir.'
+  - '§eEn çok kırana ödüller verilir.'
+  - '§bBaşlayacak sıradaki saat : {time}'
+  - ''
+  - '§cBaşlatan saatler : {times}'
+  - ''
+location-height: 3
+start-message:
+  - ''
+  - '§eŞanslı Block etkinliği başladı!'
+  - '§7/warp bloketkinlik'
+  - ''
+finish-message:
+  - ''
+  - '§cŞanslı Block etkinliği bitti! Etkinliğini kazanan >> {player}'
+  - 'bÖdülleri verildi; 6 elmas vs.'
+  - ''
